@@ -4,7 +4,7 @@
 <h2>Equipe:</h2>
 <h3>
    <a href="https://github.com/douglasfsbatista">Douglas Batista</a> (<a href="mailto:douglasfilipeebr@gmail.com">douglasfilipeebr@gmail.com</a>) <br>
-   <a href="https://github.com/Bielmelo6">Gabriel Melo</a> (<a href="mailto:gabriel@email.com">gabriel@email.com</a>) <br>
+   <a href="https://github.com/Bielmelo6">Gabriel Melo de Menezes</a> (<a href="mailto:gabrielmelodemenezes@gmail.com">gabrielmelodemenezes@gmail.com</a>) <br>
    <a href="https://github.com/jvictorcordeiro">João V. Cordeiro</a> (<a href="mailto:joaovictorcor@gmail.com">joaovictorcor@gmail.com</a>) <br>
 </h3>
 <h2>Descrição do projeto:</h2>
