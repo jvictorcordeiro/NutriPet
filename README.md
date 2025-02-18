@@ -1,13 +1,13 @@
 <h1>NutriPet</h1>
 <img src="https://i.imgur.com/wyehiLU.png"/>
 
-<h3>Equipe:</h3>
+<h2>Equipe:</h2>
 <h3>
    <a href="https://github.com/douglasfsbatista">Douglas Batista</a> (<a href="mailto:douglas@email.com">douglas@email.com</a>) <br>
    <a href="https://github.com/Bielmelo6">Gabriel Melo</a> (<a href="mailto:gabriel@email.com">gabriel@email.com</a>) <br>
    <a href="https://github.com/jvictorcordeiro">João V. Cordeiro</a> (<a href="mailto:joaovictorcor@gmail.com">joaovictorcor@gmail.com</a>) <br>
 </h3>
-<h3>Descrição do projeto:</h3>
+<h2>Descrição do projeto:</h2>
 <p>
     O projeto visa, principalmente, auxiliar na manutenção da saúde dos animais 
     domésticos, cães e gatos, através do monitoramento da ingestão diária de alimentos 
@@ -20,8 +20,8 @@
     supostos petiscos na ingestão diária recomendada.
 </p>
 
-<h3>Documentação:</h3>
-<p>
+<h2>Documentação:</h2>
+<h3>
     🔗 <a href="https://www.figma.com/design/MejdsLonF9hRbQ7PWRAevx/NutriPet?m=auto&t=eoV43FC02tCUAtNO-6" target="_blank">Mockup</a><br>
     🔗 <a href="https://link-para-backlog.com" target="_blank">Backlog</a>
-</p>
+</h3>
