@@ -23,5 +23,5 @@
 <h2>Documentação:</h2>
 <h3>
     🔗 <a href="https://www.figma.com/design/MejdsLonF9hRbQ7PWRAevx/NutriPet?m=auto&t=eoV43FC02tCUAtNO-6" target="_blank">Mockup</a><br>
-    🔗 <a href="https://link-para-backlog.com](https://drive.google.com/file/d/1hzILlTI-nY112FaOUhW_z8MBw2rcAjeF/view?usp=sharing" target="_blank">Backlog</a>
+    🔗 <a href="https://drive.google.com/file/d/1hzILlTI-nY112FaOUhW_z8MBw2rcAjeF/view?usp=sharing" target="_blank">Backlog</a>
 </h3>
