@@ -1,0 +1,2 @@
+Aqui ficam  os aquivos utilitarios que são usados em toda a aplicação. 
+São funçoes auxiliares que podem ser usadas em qualquer lugar do projeto. Como formatação de datas, strings, validações etc.

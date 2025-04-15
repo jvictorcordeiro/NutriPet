@@ -1,0 +1,8 @@
+// São as interfaces dos repositórios, contratos que a camada de dados deve implementar.
+
+Ex.
+
+abstract class UsuarioRepository {
+  Future<List<Usuario>> listarUsuarios();
+  Future<Usuario> obterUsuario(String id);
+}

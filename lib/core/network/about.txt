@@ -1,0 +1,24 @@
+Nessa pasta ficam os arquivos relacionados a comunicação com a internet como API, WebSocket, etc.
+Ele é responsável por centralizar toda a lógica relacionada à configuração e gerenciamento de conexões de rede,
+como configurações do cliente HTTP, interceptors, tratamento de erros, e outras funcionalidades relacionadas.
+
+
+Ex.
+
+class ApiClient {
+  final Dio dio;
+
+  ApiClient() : dio = Dio() {
+    // Configurações base do Dio
+    dio.options.baseUrl = 'https://api.exemplo.com';
+    dio.options.connectTimeout = const Duration(seconds: 10);
+    dio.options.receiveTimeout = const Duration(seconds: 10);
+
+    // Adiciona interceptors
+    dio.interceptors.addAll([
+      AuthInterceptor(),
+      LoggingInterceptor(),
+    ]);
+  }
+
+}

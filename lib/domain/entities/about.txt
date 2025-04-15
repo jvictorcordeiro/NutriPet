@@ -1,0 +1,18 @@
+Fazem parte do domínio da aplicação, são objetos que representam entidades do mundo real. Efetivamente as classes do negócio.
+
+
+Ex. 
+
+
+class Usuario {
+  final String id;
+  final String nome;
+  final String email;
+
+  Usuario({
+    required this.id,
+    required this.nome,
+    required this.email,
+  });
+
+}

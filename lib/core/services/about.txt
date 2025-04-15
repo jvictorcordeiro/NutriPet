@@ -1,0 +1,1 @@
+Aqui são classes de serviço como local storage, notifications, shared preferences, etc.

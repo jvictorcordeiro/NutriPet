@@ -1,0 +1,21 @@
+O Repository é uma camada intermediária entre a fonte de dados (DataSource) e a lógica de negócios (Use Cases). 
+Ele abstrai a origem dos dados, permitindo que a camada de domínio (Domain Layer) não precise saber de onde os dados vêm 
+(API, banco de dados, etc.). O repositório orquestra o acesso aos dados, 
+podendo combinar fontes diferentes (por exemplo, buscar dados da API e armazenar em cache no banco local).
+Ela converte os DTOs em entidades de domínio e retorna para o caso de uso
+
+
+Ex. 
+
+
+class UsuarioRepositoryImpl implements UsuarioRepository {
+  final UsuarioRemoteDataSource remoteDataSource;
+
+  UsuarioRepositoryImpl(this.remoteDataSource);
+
+  @override
+  Future<List<Usuario>> listarUsuarios() async {
+    final usuarios = await remoteDataSource.listarUsuarios();
+    return usuarios.map((model) => model.toEntity()).toList();
+  }
+}

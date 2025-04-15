@@ -1,0 +1,13 @@
+São os casos de uso que definem a regra de negócio
+
+Ex.
+
+class ListarUsuarios {
+  final UsuarioRepository repository;
+
+  ListarUsuarios(this.repository);
+
+  Future<List<Usuario>> call() async {
+    return await repository.listarUsuarios();
+  }
+}

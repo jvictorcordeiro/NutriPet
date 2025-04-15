@@ -1,0 +1,5 @@
+Responsável pelo gerenciamento de estado do aplicativo ( Provider, GetX, MobX, BLoC, etc)
+
+
+ex.
+

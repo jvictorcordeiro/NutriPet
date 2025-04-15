@@ -1,0 +1,19 @@
+É responsável por interagir diretamente com a origem dos dados. Ele sabe como acessar os dados, seja de uma API REST,
+um banco de dados local, um arquivo, ou qualquer outra fonte.
+Sua principal função é fornecer os dados brutos para a camada superior (o repositório).
+
+
+Ex.
+
+class UsuarioRemoteDataSource {
+  final Dio dio;
+
+  UsuarioRemoteDataSource(this.dio);
+
+  Future<List<UsuarioModel>> listarUsuarios() async {
+    final response = await dio.get('/usuarios');
+    return (response.data as List)
+        .map((json) => UsuarioModel.fromJson(json))
+        .toList();
+  }
+}

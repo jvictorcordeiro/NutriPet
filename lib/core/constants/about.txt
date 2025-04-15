@@ -1,0 +1,1 @@
+Onde ficam as constantes do projeto, como cores, tamanhos de fontes, etc.
